@@ -1,0 +1,19 @@
+{
+  "name": "freelancer-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api:dev": "pnpm --filter @repo/api dev",
+    "mob-mas:dev": "pnpm --filter @repo/mobile-master dev",
+    "web-mas:dev": "pnpm --filter @repo/web-master dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.27.0",
+  "devDependencies": {
+    "turbo": "^2.11.13"
+  }
+}
